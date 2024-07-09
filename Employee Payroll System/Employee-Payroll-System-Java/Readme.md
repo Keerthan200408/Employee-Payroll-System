@@ -1,13 +1,6 @@
 
-Abstract Employee class serving as the foundation for different employee types.
-Concrete subclasses FullTimeEmployee and PartTimeEmployee with salary calculation.
-A user-friendly terminal interface for easy interaction and data management.
-Demonstrates core OOP concepts with practical coding examples.
-Complete source code and step-by-step guide for better understanding.
+The Employee Payroll System is a Java application designed to manage and calculate salaries for different types of employees. It features an abstract Employee class, extended by FullTimeEmployee and PartTimeEmployee classes. The FullTimeEmployee class has a fixed monthly salary, while PartTimeEmployee calculates salary based on hours worked and an hourly rate.
 
-📁 Repository Contents:
+The core of the application is the PayrollSystem class, which manages a list of employees. It provides methods to add, remove, and display employee details. Employees can be added with their details and calculated salaries stored, removed by ID, and their details displayed on the console.
 
-Source code for the Employee Payroll System project.
-README with project overview, setup instructions, and usage details.
-🌟 Join the learning journey, contribute, and share your thoughts. Let's master OOP concepts and Java programming together!
-
+To run the application, the Main class demonstrates its functionality. It creates instances of FullTimeEmployee and PartTimeEmployee, adds them to the payroll system, and displays their details. After removing an employee, the remaining employees' details are displayed. Input includes employee details like name, ID, and salary components, while output is printed to the console showing employee information and calculated salaries.
